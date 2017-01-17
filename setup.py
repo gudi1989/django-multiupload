@@ -14,7 +14,7 @@ import os
 
 from setuptools import setup, find_packages
 
-from multiupload import __version__
+from multiupload_floppy import __version__
 
 REQUIREMENTS = [
     'django',
@@ -41,14 +41,14 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as f:
     LONG_DESCRIPTION = f.read()
 
 setup(
-    name='django-multiupload',
+    name='django-multiuploadfloppy',
     version=__version__,
     description='Dead simple drop-in multi file upload field '
                 'for django forms using HTML5\'s multiple attribute.',
     long_description=LONG_DESCRIPTION,
-    author='Chive',
-    author_email='kim@smuzey.ch',
-    url='https://github.com/Chive/django-multiupload',
+    author='Martin Gutmair',
+    author_email='martin@gutmair.de',
+    url='https://github.com/gudi1989/django-multiupload-floppy',
     packages=find_packages(),
     license='LICENSE.txt',
     platforms=['OS Independent'],

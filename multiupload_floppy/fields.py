@@ -3,8 +3,7 @@
 """
 This module contains form fields to work with.
 """
-
-from django import forms
+import floppyforms.__future__ as forms
 from django.core.exceptions import ValidationError, FieldError
 from django.utils.translation import ugettext_lazy as _
 
